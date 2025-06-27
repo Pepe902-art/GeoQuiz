@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pepe's GeoQuiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌍 Pepe's Europa-Quiz</h1>
+  </header>
+
+  <main>
+    <section class="quiz">
+      <h2>Frage 1</h2>
+      <p>Was ist die Hauptstadt von Norwegen?</p>
+      <button onclick="checkAnswer(this, true)">Oslo</button>
+      <button onclick="checkAnswer(this, false)">Stockholm</button>
+      <button onclick="checkAnswer(this, false)">Helsinki</button>
+    </section>
+
+    <section class="quiz">
+      <h2>Frage 2</h2>
+      <p>Welcher Fluss fließt durch Budapest?</p>
+      <button onclick="checkAnswer(this, true)">Donau</button>
+      <button onclick="checkAnswer(this, false)">Rhein</button>
+      <button onclick="checkAnswer(this, false)">Thames</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
